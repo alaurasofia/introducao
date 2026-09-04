@@ -23,6 +23,7 @@ function App() {
 
       <p>Você clicou <strong>{cliques}</strong> vezes</p>
       <button onClick= {() => setCliques (cliques + 1 )}>Clique aqui</button>
+      <hr/>
       {/*
                       () => : Arrow Function -> Função do tipo seta (lambda)
                       Função anônima
